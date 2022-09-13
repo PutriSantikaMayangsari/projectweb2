@@ -2,6 +2,9 @@
 
 namespace App\Controllers;
 
+use App\Controllers\BaseController;
+use App\Models\Mahasiswa;
+
 class Pages extends BaseController
 {
     public function index()
@@ -21,5 +24,8 @@ class Pages extends BaseController
         return view('templates/header', $data)
             . view('pages/' . $page)
             . view('templates/footer');
+    }
+    public function mahasiswa()
+    {
     }
 }
