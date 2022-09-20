@@ -1,5 +1,5 @@
 <div class="p-4">
-    <form>
+    <form action="/store" method="post">
         <div class="form-group" p-4>
             <label for="npm">NPM</label>
             <input type="text" name="npm" class="form-control" id="npm" placeholder="Enter npm">
